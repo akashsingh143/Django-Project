@@ -1,7 +1,9 @@
 # Django-Project
 This is similar like Naukri.com , I have made this for learning purpose using (Django Framework). 
 
-settings.py
+1) Extract file to where you want to run this project
+
+2) settings.py
 
 DATABASES = {
     'default': {
@@ -17,9 +19,9 @@ DATABASES = {
     }
 }
 
-I have used mysql database using xammp server , 
+I have used mysql database using xammp server DATABASE configuration mentioned above, 
 you can use db.sqlite3 by default for that no changes required in settings.py 
 
-command : 1. python manage.py makemigrations
+3) command : 1. python manage.py makemigrations
           2. python manage.py migrate
           3. python manage.py runserver
