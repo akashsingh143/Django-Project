@@ -20,8 +20,10 @@ DATABASES = {
 }
 
 I have used mysql database using xammp server DATABASE configuration mentioned above, 
-you can use db.sqlite3 by default for that no changes required in settings.py 
+you can use db.sqlite3 by default for that you have to configure dbsqlite3 Database configuration in settings.py 
 
 3) command : 1. python manage.py makemigrations
           2. python manage.py migrate
           3. python manage.py runserver
+
+4) Insert job in jobs table.
