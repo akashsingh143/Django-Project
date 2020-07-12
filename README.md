@@ -19,7 +19,7 @@ DATABASES = {
     }
 }
 
-I have used mysql database using xammp server DATABASE configuration mentioned above, 
+I have used mysql database using xampp server DATABASE configuration mentioned above, 
 you can use db.sqlite3 by default for that you have to configure dbsqlite3 Database configuration in settings.py 
 
 3) command : 1. python manage.py makemigrations
